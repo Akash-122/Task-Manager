@@ -1,0 +1,41 @@
+/* Navbar styles */
+.chat-navbar {
+  background-color: #041a1a; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add some padding */
+  /* align-items: center; */
+}
+
+.chat-navbar a {
+  color: #fff; /* White text color for links */
+}
+
+.chat-navbar .logged-in-user {
+  font-weight: bold; /* Make the username bold */
+}
+
+.chat-navbar-inner-left {
+  float:left;
+  
+}
+.chat-navbar-inner-right {
+float: right;
+}
+
+
+.nav-link{
+  padding: 7px 13px;
+  border: solid 1px rgb(1, 1, 27);
+  border-radius: 3px;
+  background-color: #c41414;
+  cursor: pointer;
+}
+.nav-link:hover{
+  background-color: #d3e4eb;
+
+}
+
+.chat-navbar-inner{
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly */
+}
